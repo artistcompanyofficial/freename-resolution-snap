@@ -1,0 +1,1 @@
+# freename-resolution-snap
