@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "description": "Web3 domain resolver by freename.io.",
+  "proposedName": "Freename Web3 Resolver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreenameDomains/freename-resolution-snap.git"
+  },
+  "source": {
+    "shasum": "j8lAtWv4sG9ksdNZjs3UrMVE/9ZW1EJwHz+LyDbZIf8=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "freename-resolution-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "endowment:name-lookup": {
+      "chains": [
+        "eip155:1",
+        "eip155:137",
+        "eip155:8453",
+        "eip155:56",
+        "eip155:1329",
+        "eip155:42793"
+      ]
+    }
+  },
+  "platformVersion": "6.14.0",
+  "manifestVersion": "0.1"
+}
