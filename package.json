@@ -13,6 +13,11 @@
     "images/",
     "snap.manifest.json"
   ],
+  "keywords": ["npm", "package", "metamask", "snap", "freename", "web3", "resolver"],
+  "author": {
+    "name": "Freename.io",
+    "email": "support@freename.io"
+  },
   "scripts": {
     "allow-scripts": "yarn workspace root allow-scripts",
     "build": "mm-snap build",
