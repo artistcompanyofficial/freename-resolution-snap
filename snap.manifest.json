@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web3 domain resolver by freename.io.",
   "proposedName": "Freename Web3 Resolver",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/FreenameDomains/freename-resolution-snap.git"
   },
   "source": {
-    "shasum": "j8lAtWv4sG9ksdNZjs3UrMVE/9ZW1EJwHz+LyDbZIf8=",
+    "shasum": "1iNXDBXKjgPs1H9nzpOrEpqB/s7i7fK2GVAEHuuiBRk=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
