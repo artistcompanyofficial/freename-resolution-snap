@@ -1,6 +1,6 @@
 {
   "name": "freename-resolution-snap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MetaMask snap for resolving domains to addresses, offered by Freename.io web3 resolver",
   "repository": {
     "type": "git",
