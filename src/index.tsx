@@ -20,8 +20,7 @@ const chainIdToName = {
 
 /**
  * @param request - The request arguments.
- * @param request.domain - The domain to resolve. Will be undefined if an address is provided.
- * @param request.address - The address to resolve. Will be undefined if a domain is provided.
+ * @param request.domain - The domain to resolve.
  * @param request.chainId - The CAIP-2 chain ID of the associated network.
  * @returns If successful, an object containing the resolvedAddress. Null otherwise.
  */
