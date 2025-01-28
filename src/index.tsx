@@ -39,7 +39,6 @@ export const onNameLookup: OnNameLookupHandler = async (request) => {
       const response = await fetch(`${baseURL}/${registry}/${domain}`);
 
       if (!response.ok) {
-        console.error(`Failed to fetch from registry ${registry}: ${response.statusText}`);
         continue;
       }
 
@@ -65,7 +64,8 @@ export const onNameLookup: OnNameLookupHandler = async (request) => {
         };
       }
     } catch (error) {
-      console.error(`Error resolving domain for registry ${registry}:`, error);
+      // resolve failed
+      return null;
     }
   }
 

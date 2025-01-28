@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "jsx": "react-jsx",
-    "jsxImportSource": "@metamask/snaps-sdk"
+    "jsxImportSource": "@metamask/snaps-sdk",
+    "strictNullChecks": true
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }
