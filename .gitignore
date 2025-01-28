@@ -131,7 +131,7 @@ out
 !.yarn/versions/
 
 # Ignore the Yarn cache
-.yarn/cache/
+.yarn/cache/*
 
 .yarn/unplugged
 .yarn/build-state.yml
