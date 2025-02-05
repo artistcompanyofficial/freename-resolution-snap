@@ -47,7 +47,7 @@ export const onNameLookup: OnNameLookupHandler = async (request) => {
       const resolvedAddress = resJson?.data?.resolvedAddress;
       if (resolvedAddress) {
         const network = resJson?.data?.network?.toLowerCase();
-        const protocolName = `${registryToProtocol[registry as keyof typeof registryToProtocol]} (${network})`;
+        const protocolName = `${registryToProtocol[registry as keyof typeof registryToProtocol]} (${network.charAt(0).toUpperCase() + network.slice(1)})`;
 
         const protocol = chainIdToName[chainId as keyof typeof chainIdToName] !== network
           ? `⚠️ ${protocolName}`
